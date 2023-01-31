@@ -1,0 +1,11 @@
+﻿  car.cpp
+D:\QAU\2020-2021-2\final 课程设计\Simple_car\Simple_car\car.cpp(132,26): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+D:\QAU\2020-2021-2\final 课程设计\Simple_car\Simple_car\car.cpp(327,22): warning C4244: “=”: 从“my_ulonglong”转换到“int”，可能丢失数据
+D:\QAU\2020-2021-2\final 课程设计\Simple_car\Simple_car\car.cpp(311,12): warning C4101: “column”: 未引用的局部变量
+D:\QAU\2020-2021-2\final 课程设计\Simple_car\Simple_car\car.cpp(339,12): warning C4101: “column”: 未引用的局部变量
+D:\QAU\2020-2021-2\final 课程设计\Simple_car\Simple_car\car.cpp(338,13): warning C4101: “res”: 未引用的局部变量
+D:\QAU\2020-2021-2\final 课程设计\Simple_car\Simple_car\car.cpp(412,12): warning C4101: “column”: 未引用的局部变量
+D:\QAU\2020-2021-2\final 课程设计\Simple_car\Simple_car\car.cpp(411,13): warning C4101: “res”: 未引用的局部变量
+  main.cpp
+  正在生成代码...
+  Simple_car.vcxproj -> D:\QAU\2020-2021-2\final 课程设计\Simple_car\x64\Debug\Simple_car.exe

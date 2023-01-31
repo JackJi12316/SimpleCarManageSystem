@@ -1,0 +1,25 @@
+﻿生成启动时间为 2021/4/27 20:59:28。
+     1>项目“D:\Code\exercise\Simple_car\Simple_car\Simple_car.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Simple_car.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt car.cpp
+         car.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\exercise\Simple_car\Debug\Simple_car.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Simple_car.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Code\exercise\Simple_car\Debug\Simple_car.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\exercise\Simple_car\Debug\Simple_car.lib" /MACHINE:X86 Debug\Simple_car.exe.embed.manifest.res
+         Debug\car.obj
+         Debug\main.obj
+     1>car.obj : error LNK2019: 无法解析的外部符号 _mysql_close@4，该符号在函数 "bool __cdecl Connectsql(void)" (?Connectsql@@YA_NXZ) 中被引用
+     1>car.obj : error LNK2019: 无法解析的外部符号 _mysql_query@8，该符号在函数 "bool __cdecl Connectsql(void)" (?Connectsql@@YA_NXZ) 中被引用
+     1>car.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 "bool __cdecl Connectsql(void)" (?Connectsql@@YA_NXZ) 中被引用
+     1>car.obj : error LNK2019: 无法解析的外部符号 _mysql_errno@4，该符号在函数 "bool __cdecl Connectsql(void)" (?Connectsql@@YA_NXZ) 中被引用
+     1>car.obj : error LNK2019: 无法解析的外部符号 _mysql_error@4，该符号在函数 "bool __cdecl Connectsql(void)" (?Connectsql@@YA_NXZ) 中被引用
+     1>car.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 "bool __cdecl Connectsql(void)" (?Connectsql@@YA_NXZ) 中被引用
+     1>D:\Code\exercise\Simple_car\Debug\Simple_car.exe : fatal error LNK1120: 6 个无法解析的外部命令
+     1>已完成生成项目“D:\Code\exercise\Simple_car\Simple_car\Simple_car.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.84
